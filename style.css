@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #e3f4f4;
+}
+header {
+  padding-top: 5rem;
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  font-size: 2.5rem;
+  padding-bottom: 2rem;
+  align-self: center;
+  color: #4f4557;
+}
+
+form {
+  width: 50rem;
+  display: flex;
+  padding-bottom: 2rem;
+}
+input {
+  font-size: 2rem;
+  padding-right: 2rem;
+  flex: 2;
+  border: none;
+  background-color: #d2e9e9;
+  color: #6d5d6e;
+}
+input:focus {
+  outline: none;
+  opacity: 0.5;
+}
+input::placeholder {
+  color: grey;
+  font-weight: 500;
+}
+
+.task-container {
+  display: flex;
+  flex-direction: column;
+}
+.task {
+  display: flex;
+  width: 50rem;
+  height: 2rem;
+  padding: 1rem;
+}
+.value {
+  background-color: #d2e9e9;
+  padding-right: 2rem;
+  flex: 2;
+}
+.value:placeholder {
+  color: #4f4557;
+  font-weight: 400;
+  font-size: 1.5rem;
+  /* text-align: left; */
+}
+
+button {
+  text-align: center;
+  font-size: 1rem;
+  width: 8rem;
+  background: none;
+  border: none;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  cursor: pointer;
+  color: #6d5d6e;
+  font-weight: 100;
+  background-color: #c4dfdf;
+}
+
+button:hover {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #393646;
+  opacity: 0.8;
+}
